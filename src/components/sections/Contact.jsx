@@ -55,7 +55,7 @@ const Contact = () => {
         {
             icon: <MapPin className="w-6 h-6 text-[#8a2be2]" />,
             title: "Location",
-            value: "Dohad, Gujarat, India",
+            value: "Vadodara, Gujarat, India",
             link: null
         },
         {
