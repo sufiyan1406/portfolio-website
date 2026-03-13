@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { GitCommit, Github, BookOpen } from 'lucide-react';
-import * as GitHubCalendarModule from 'react-github-calendar';
-const GitHubCalendar = GitHubCalendarModule.default || GitHubCalendarModule;
+import { GitHubCalendar } from 'react-github-calendar';
 
 const GithubActivity = () => {
     // Custom neon theme for the calendar
