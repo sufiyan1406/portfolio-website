@@ -62,6 +62,21 @@ const projects = [
         architecture: 'Android client built with Java interfacing with a MySQL database via RESTful web services, utilizing third-party QR API.',
         challenges: 'Ensuring offline capability with synchronization when network connectivity is restored, and preventing QR code sharing.',
         future: 'Integrating facial recognition for secondary verification and automated warning emails for low attendance.'
+    },
+    {
+        id: 5,
+        title: 'IEMS',
+        shortDesc: 'Integrated Education Management System with AI analytics.',
+        description: 'An AI-enhanced digital platform designed to centralize and automate the academic, administrative, and communication workflows of educational institutions. Features AI-based student risk analysis, automated timetables, and unified dashboard.',
+        technologies: ["Java", "Python", "MySQL", "PostgreSQL", "REST API"],
+        github: null,
+        demo: null,
+        image: 'https://via.placeholder.com/600x400/0f172a/8a2be2?text=IEMS+Platform',
+        problem: 'Traditional education management systems rely on manual tracking and delayed reports, lacking proactive identifying of at-risk students.',
+        solution: 'Designed a unified ecosystem with real-time dashboards and AI-driven analytics that detect academic decline patterns early.',
+        architecture: 'Java & Python backend services handling REST APIs, connected to MySQL/PostgreSQL databases, and a modern web dashboard frontend.',
+        challenges: 'Integrating disparate institutional workflows (fees, attendance, timetables) into a centralized, scalable architecture with intelligent pattern detection.',
+        future: 'Adding parent portal mobile applications and expanding AI models for personalized learning recommendations.'
     }
 ];
 
