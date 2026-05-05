@@ -78,6 +78,22 @@ const projects = [
         challenges: 'Integrating disparate institutional workflows (fees, attendance, timetables) into a centralized, scalable architecture with intelligent pattern detection.',
         future: 'Adding parent portal mobile applications and expanding AI models for personalized learning recommendations.'
     }
+    {
+        id: 6,
+        title: 'AI Life Admin Assistant (ALIA)',
+        shortDesc: 'AI-powered life management system that converts unstructured inputs into actionable tasks.',
+        description: 'A smart personal productivity system that automatically extracts tasks from unstructured data such as images, PDFs, audio, and text. It transforms scattered information into structured tasks with priorities and deadlines, reducing manual effort and improving task management efficiency.',
+        technologies: ["Next.js", "FastAPI", "Supabase", "Python", "Tailwind CSS", "OpenAI/Whisper/OCR"],
+        github: 'https://github.com/sufiyan1406/ALIA---Ai-Life-Admin-Assistant/blob/main/README.md',
+        demo: 'https://your-demo-link.com',
+        image: 'https://cdn.corenexis.com/files/c/8627665720.png',
+        problem: 'People receive important information across multiple formats (notes, screenshots, voice messages, PDFs) but fail to convert them into actionable tasks, leading to missed deadlines and poor organization.',
+        solution: 'Built an AI-driven pipeline that automatically processes different input types, extracts relevant task information, and stores it in a structured task management system with prioritization and deadlines.',
+        architecture: 'Next.js frontend with Neo-Brutalist UI, FastAPI backend handling task APIs and AI processing pipeline, Supabase for authentication and database with RLS, and integrated OCR + speech-to-text + LLM-based extraction system.',
+        challenges: 'Handling multiple input formats reliably, ensuring accurate AI extraction into structured JSON, maintaining secure user-specific data flow, and integrating real-time frontend updates with backend processing.',
+        future: 'Adding automation features like smart reminders, proactive task suggestions, cross-device sync, and advanced AI planning capabilities for full life management assistance.'
+        }
+
 ];
 
 const Projects = () => {
