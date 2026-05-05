@@ -77,7 +77,7 @@ const projects = [
         architecture: 'Java & Python backend services handling REST APIs, connected to MySQL/PostgreSQL databases, and a modern web dashboard frontend.',
         challenges: 'Integrating disparate institutional workflows (fees, attendance, timetables) into a centralized, scalable architecture with intelligent pattern detection.',
         future: 'Adding parent portal mobile applications and expanding AI models for personalized learning recommendations.'
-    }
+    },
     {
         id: 6,
         title: 'AI Life Admin Assistant (ALIA)',
